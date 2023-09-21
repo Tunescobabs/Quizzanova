@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    background-color: #5928E5;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.appname_container {
+    background-color: #5928E5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 50px;  /* or whatever size you prefer */
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.right {
+    flex: 1;
+    background-color: #f4f4f4;  /* light grey, you can adjust */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.right form {
+    width: 80%;
+    max-width: 400px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+button, a {
+    background-color: #0aa03c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.right label {
+    color: blue;
+}
+
+.right input[type="text"],
+.right input[type="password"],
+.right input[type="email"] {
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px; /* Adds some padding inside the input box */
+}
+
+.right input[type="text"]:focus,
+.right input[type="password"]:focus,
+.right input[type="email"]:focus {
+    outline: none;   /* Removes the default browser outline */
+    border-color: darkblue;  /* Darker shade of blue when the input is in focus */
+}
+
+
+
+
+
+
+.startpage, .completed {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}

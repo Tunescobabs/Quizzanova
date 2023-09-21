@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    
+    <form method='post' action=''>
+        {% csrf_token %}
+        
+        <div class="">
+          <label for="question">{{question.text}}</label>
+        </div>
+        <div class="">
+            <div class="">
+                <input class="" type="radio" name="{{question.text}}" id="gridRadios1" value="1" >
+                <label class="" for="gridRadios1">
+                    {{question.option1}}
+                </label>
+            </div>
+            <div class="">
+                <input class="" type="radio" name="{{question.text}}" id="gridRadios2" value="2">
+                <label class="" for="gridRadios2">
+                    {{question.option2}}
+                </label>
+            </div>
+            <div class="">
+                <input class="" type="radio" name="{{question.text}}" id="gridRadios1" value="3">
+                <label class="" for="gridRadios1">
+                    {{question.option3}}
+                </label>
+            </div>
+            <div class="">
+                <input class="" type="radio" name="{{question.text}}" id="gridRadios2" value="4">
+                <label class="" for="gridRadios2">
+                    {{question.option4}}
+                </label>
+            </div>
+            <br>
+        </div>    
+       
+    <button type="submit">Next</button>
+</form>
+{% endblock %}

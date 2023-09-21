@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Quizzanova</title>
+</head>
+
+{% block content %}
+
+
+
+
+<div class="container">
+    <div class="left">
+        <img src="..\static\assets\logo.svg" alt="App Logo" class="logo">
+        <h1 class="appname">Quizzanova</h1>
+        
+    
+    </div>
+    <div class="right">
+        <h2>Register to start quiz</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Register</button>
+        </form>
+    
+    </div>
+</div>
+
+{% endblock %}
