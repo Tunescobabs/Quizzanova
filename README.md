@@ -60,9 +60,7 @@ Quizzanova is a responsive web application that offers users a seamless quiz exp
 
 We appreciate your interest in contributing to Quizzanova! Please submit a pull request with your proposed changes.
 
-## License
 
-MIT License. See `LICENSE` for more information.
 
 ## Contact
 
