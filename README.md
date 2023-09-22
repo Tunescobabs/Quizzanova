@@ -18,8 +18,7 @@ Quizzanova is a responsive web application that offers users a seamless quiz exp
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/Tunescobabs/Quizzanova.git
-]
+   git clone [https://github.com/Tunescobabs/Quizzanova.git]
    ```
 
 2. **Navigate to the Directory**:
