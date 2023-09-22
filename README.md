@@ -18,7 +18,8 @@ Quizzanova is a responsive web application that offers users a seamless quiz exp
 
 1. **Clone the Repository**:
    ```bash
-   git clone [your-repository-link]
+   git clone [https://github.com/Tunescobabs/Quizzanova.git
+]
    ```
 
 2. **Navigate to the Directory**:
@@ -66,8 +67,8 @@ MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your@email.com
+Babatunde Olaniyi - olaniyibabatunde38@gmail.com
 
 ---
 
-Remember to replace placeholders (like `[your-repository-link]` or `your@email.com`) with actual values relevant to your project.
+
